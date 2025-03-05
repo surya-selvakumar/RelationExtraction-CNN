@@ -1,0 +1,112 @@
+2025-03-05 11:22:40,080 [MainThread  ] [INFO ]  Datasets: processed_data/fire_train.json, processed_data/fire_test.json
+2025-03-05 11:22:40,081 [MainThread  ] [INFO ]  Model type: tablert_cnn
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  Relation type count: 19
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  Entity type count: 14
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  Context size: 167
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  Entities:
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  O=0
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  B-Action=1
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  U-Action=2
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  I-Action=3
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  L-Action=4
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  B-BusinessUnit=5
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  U-BusinessUnit=6
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  I-BusinessUnit=7
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  L-BusinessUnit=8
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  B-Company=9
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  U-Company=10
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  I-Company=11
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  L-Company=12
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  B-Date=13
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  U-Date=14
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  I-Date=15
+2025-03-05 11:22:42,481 [MainThread  ] [INFO ]  L-Date=16
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  B-Designation=17
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  U-Designation=18
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  I-Designation=19
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  L-Designation=20
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  B-FinancialEntity=21
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  U-FinancialEntity=22
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  I-FinancialEntity=23
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  L-FinancialEntity=24
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  B-GeopoliticalEntity=25
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  U-GeopoliticalEntity=26
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  I-GeopoliticalEntity=27
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  L-GeopoliticalEntity=28
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  B-Location=29
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  U-Location=30
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  I-Location=31
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  L-Location=32
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  B-Money=33
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  U-Money=34
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  I-Money=35
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  L-Money=36
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  B-Person=37
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  U-Person=38
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  I-Person=39
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  L-Person=40
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  B-Product=41
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  U-Product=42
+2025-03-05 11:22:42,482 [MainThread  ] [INFO ]  I-Product=43
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  L-Product=44
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  B-Quantity=45
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  U-Quantity=46
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  I-Quantity=47
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  L-Quantity=48
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  B-Sector=49
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  U-Sector=50
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  I-Sector=51
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  L-Sector=52
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  Relations:
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  No Relation=0
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  R-ActionBuy=1
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  L-ActionBuy=2
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  R-Actionin=3
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  L-Actionin=4
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  R-ActionMerge=5
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  L-ActionMerge=6
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  R-ActionSell=7
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  L-ActionSell=8
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  R-Actionto=9
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  L-Actionto=10
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  R-Constituentof=11
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  L-Constituentof=12
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  R-Designation=13
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  L-Designation=14
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  R-Employeeof=15
+2025-03-05 11:22:42,483 [MainThread  ] [INFO ]  L-Employeeof=16
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  R-Locatedin=17
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  L-Locatedin=18
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  R-Productof=19
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  L-Productof=20
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  R-Propertyof=21
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  L-Propertyof=22
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  R-Quantity=23
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  L-Quantity=24
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  R-Sector=25
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  L-Sector=26
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  R-Subsidiaryof=27
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  L-Subsidiaryof=28
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  R-Value=29
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  L-Value=30
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  R-ValueChangeDecreaseby=31
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  L-ValueChangeDecreaseby=32
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  R-Valuein=33
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  L-Valuein=34
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  R-ValueChangeIncreaseby=35
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  L-ValueChangeIncreaseby=36
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  Dataset: train
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  Document count: 2117
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  Relation count: 5926
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  Entity count: 10787
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  Token count: 62580
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  Maximum sequence length: 167
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  Dataset: valid
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  Document count: 454
+2025-03-05 11:22:42,484 [MainThread  ] [INFO ]  Relation count: 1213
+2025-03-05 11:22:42,485 [MainThread  ] [INFO ]  Entity count: 2251
+2025-03-05 11:22:42,485 [MainThread  ] [INFO ]  Token count: 13446
+2025-03-05 11:22:42,485 [MainThread  ] [INFO ]  Maximum sequence length: 128
+2025-03-05 11:22:42,485 [MainThread  ] [INFO ]  Updates per epoch: 264
+2025-03-05 11:22:42,485 [MainThread  ] [INFO ]  Updates total: 7920
+2025-03-05 11:22:43,954 [MainThread  ] [INFO ]  Train epoch: 0
