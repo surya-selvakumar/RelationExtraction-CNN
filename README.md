@@ -15,14 +15,14 @@ Python: 3.7.0
 > pip install -r requirements.txt
 
 
-# Training
+## Model Training
 
 > python run.py train --config ./configs/train.conf
 
-# Evaluation
+## Model Evaluation
 
 > python run.py eval --config ./configs/eval.conf
 
-# Testing
+## Model Testing
 
 > python run.py --config ./configs/test.conf
