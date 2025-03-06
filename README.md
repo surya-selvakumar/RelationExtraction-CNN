@@ -4,7 +4,7 @@
 
 #### Model Frame Source: https://github.com/YoumiMa/TablERT-CNN/
 
-Execute the preprocessing script to get the processed data files or download them along with the trained model files from the link given under the folder
+Execute the preprocessing script to get the processed data files or download them along with the trained model from the link given under the folder's README.md
 
 ## Processing FIRE Data
 ```
