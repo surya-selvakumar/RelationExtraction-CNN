@@ -24,6 +24,6 @@ Python: 3.7.0
 
 > python run.py eval --config ./configs/eval.conf
 
-## Model Testing
+## Test the model with a custom example
 
-> python run.py --config ./configs/test.conf
+> python test.py --config ./configs/test.conf
