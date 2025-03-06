@@ -8,7 +8,7 @@ Execute the preprocessing script to get the processed data files or download the
 
 ## Processing FIRE Data
 ```
-python ./processing/cnn.py $DATA_DIR $PROCESSED_DATA_DIR
+python ./processing/process.py $DATA_DIR $PROCESSED_DATA_DIR
 ```
 
 ## Environment Setup
