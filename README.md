@@ -38,3 +38,8 @@ python run.py eval --config ./configs/eval.conf
 ```
 python test.py --config ./configs/test.conf
 ```
+
+## Colab Execution
+
+1. Setup the folder structure in Google Drive
+2. Execute the Test.ipynb
