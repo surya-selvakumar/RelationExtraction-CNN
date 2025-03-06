@@ -4,12 +4,20 @@
 
 ### Model Frame Source: https://github.com/YoumiMa/TablERT-CNN/
 
+The data files given in this repository containes RAW files without tag elements. Execute the preprocessing script to get the processed files or download them from the link given under the folder
+
+## Processing FIRE Data
+
+> python ./processing/cnn.py 
+
 
 ## Environment Setup
 
 Python: 3.7.0
 
-> python -m venv venv
+```
+python -m venv venv
+```
 
 > source venv/bin/activate
 
