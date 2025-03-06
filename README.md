@@ -1,7 +1,8 @@
 # RelationExtraction-CNN
 
-Data Source : https://aclanthology.org/2024.findings-naacl.230/
-Model Frame Source: https://github.com/YoumiMa/TablERT-CNN/
+### Data Source : https://aclanthology.org/2024.findings-naacl.230/
+
+### Model Frame Source: https://github.com/YoumiMa/TablERT-CNN/
 
 
 ## Environment Setup
