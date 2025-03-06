@@ -1,8 +1,8 @@
 # RelationExtraction-CNN
 
-### Data Source : https://aclanthology.org/2024.findings-naacl.230/
+#### Data Source : https://aclanthology.org/2024.findings-naacl.230/
 
-### Model Frame Source: https://github.com/YoumiMa/TablERT-CNN/
+#### Model Frame Source: https://github.com/YoumiMa/TablERT-CNN/
 
 Execute the preprocessing script to get the processed data files or download them along with the trained model files from the link given under the folder
 
