@@ -136,8 +136,7 @@ class TableFTrainer(BaseTrainer):
             self._eval(model, compute_loss, validation_dataset, input_reader, 0, updates_epoch)
      
         # train
-        # for epoch in range(args.epochs):
-        for epoch in range(10):
+        for epoch in range(args.epochs):
             # train epoch
             self._train_epoch(model, compute_loss, optimizer, train_dataset, updates_epoch, epoch, input_reader.entity_label_count, input_reader.relation_label_count)
             

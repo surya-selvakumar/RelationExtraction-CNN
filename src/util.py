@@ -97,6 +97,41 @@ def save_dict(log_path, dic, name):
     f.close()
 
 
+
+def format_output(data):
+    print("\n=== Sentence ===")
+    print(" ".join(data["sentences"][0]))  # Join tokens into a full sentence
+    
+    print("\n=== Named Entities ===")
+    for entity in data["ner"][0]:
+        start, end, entity_type = entity
+        entity_text = " ".join(data["sentences"][0][start:end+1])
+        print(f"  - {entity_text}: {entity_type}")
+
+    print("\n=== Relations ===")
+    for relation in data["relations"][0]:
+        start1, end1, start2, end2, rel_type = relation
+        entity1 = " ".join(data["sentences"][0][start1:end1+1])
+        entity2 = " ".join(data["sentences"][0][start2:end2+1])
+        print(f"  - {entity1} --[{rel_type}]--> {entity2}")
+
+    print("\n=== Predicted Named Entities ===")
+    for entity in data["predicted_ner"][0]:
+        start, end, entity_type = entity
+        entity_text = " ".join(data["sentences"][0][start:end+1])
+        print(f"  - {entity_text}: {entity_type}")
+
+    print("\n=== Predicted Relations ===")
+    for relation in data["predicted_relations"][0]:
+        start1, end1, start2, end2, rel_type = relation
+        entity1 = " ".join(data["sentences"][0][start1:end1+1])
+        entity2 = " ".join(data["sentences"][0][start2:end2+1])
+        print(f"  - {entity1} --[{rel_type}]--> {entity2}")
+
+    print("\n=== Document Key ===")
+    print(f"  - {data['doc_key']}")
+
+
 def summarize_dict(summary_writer, dic, name):
     table = 'Argument|Value\n-|-'
 

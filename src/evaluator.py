@@ -13,6 +13,7 @@ from src.entities import Document, Dataset, EntityLabel, EntityType
 from src.input_reader import JsonInputReader
 from src.opt import jinja2
 from src.util import subset_of
+from src.util import format_output
 
 
 SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -406,6 +407,8 @@ class Evaluator:
         contents["predicted_ner"].append(pred_ners)
         contents["relations"].append(relations_json(token_spans, gt_relations, gt_ent2token))
         contents["predicted_relations"].append(relations_json(token_spans, pred_relations, pred_ent2token))
+
+        format_output(contents)
         
         with open('prediction.json', 'a+') as f:
             json.dump(contents, f)
