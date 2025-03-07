@@ -6,6 +6,7 @@ from src import input_reader
 from src.tab_trainer import TableFTrainer
 from args import eval_argparser
 import json
+import random
 
 
 
